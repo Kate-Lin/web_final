@@ -1,0 +1,78 @@
+*{
+    background: #FFF;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 100%;
+}
+
+ul li{
+    height: 30px;
+    width: 350px;
+    list-style:none;
+    float: left;
+    display: inline;
+    font: 0.9em 幼圆;
+}
+
+ul li a{
+    color: #FFF;
+    width: 350px;
+    margin: 0px;
+    padding: 0px 0px 0px 8px;
+    text-decoration: none;
+    display: block;
+    background: #0080b0;
+    line-height: 29px;
+    border-right: 1px solid #d2e6fd;
+    border-bottom: 1px solid #d2e6fd;
+}
+
+ul li ul li{height: 25px;}
+ul li ul li a{
+    background: #0080b0;
+    line-height: 24px;
+}
+
+ul li a:hover{
+    background: #666;
+    border-bottom: 1px dashed #ff0000;
+}
+
+ul li ul{
+    visibility: hidden;
+}
+
+ul li:hover ul{
+    visibility: visible;
+}
+
+ul li ul li a:hover{
+    background: #666;
+}
+
+form{
+    padding: 20px 20px;
+    font-family: 幼圆;
+    font-size: 20px;
+    background: #FFF;
+}
+
+.tbllist{
+    width: 100%;
+
+    border: solid 3px #6187B3;
+
+    border-top-color: rgb(97, 135, 179);
+    border-top-style: solid;
+    border-top-width: 3px;
+
+    border-collapse: collapse;
+
+    border-top: solid 5px #6187B3;
+    
+}
